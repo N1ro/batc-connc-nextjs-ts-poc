@@ -1,0 +1,24 @@
+/* Change the background color of the segment */
+
+.ui.segment {
+  min-height: 200px; /* Adjust the height as needed */
+  position: relative; /* Ensure relative positioning */
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+
+.ui.segment>.ui.dimmer {
+  background-color: transparent !important;
+
+}
+
+
+.ui.dimmer .ui.loader:after {
+  border-color: black transparent transparent !important
+}
+
+.ui.big.text.loader {
+  color: black !important;
+}
